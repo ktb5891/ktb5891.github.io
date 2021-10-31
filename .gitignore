@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+/_site
+*.gem
+.sass-cache
+Gemfile.lock
+=======
+.DS_Store
+
+# Compiled site
+_site
+.jekyll-cache/
+
+# Sass garbage
+.sass-cache
+
+# Bundler
+.bundle/
+vendor/
+>>>>>>> 5fe7677ed013a8133ffd0896724772fa8a1178b4
