@@ -3,12 +3,12 @@
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-hamilton"
   spec.version       = "4.0.0"
-  spec.authors       = ["Shangzhi Huang"]
-  spec.email         = ["ngzhio@gmail.com"]
+  spec.authors       = ["Kwak Tae Beom"]
+  spec.email         = ["ktb5891@naver.com"]
 
-  spec.summary       = "A minimal and beautiful Jekyll theme best for writing and note-taking."
-  spec.homepage      = "https://github.com/ngzhio/jekyll-theme-hamilton"
-  spec.license       = "MIT"
+  spec.summary       = "Project and Study Homepage"
+  spec.homepage      = "https://github.com/ktb5891"
+  spec.license       = "Hongik Universe Industry Engineer"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 
