@@ -1,129 +1,48 @@
-<head>
-<<<<<<< HEAD
-  {%- if site.google_analytics and jekyll.environment == 'production' -%}
-    {%- include google_analytics.html -%}
-  {%- endif -%}
-  
-  <!-- Robots -->
-  <meta name="robots" content="{{- page.robots | default: 'index, follow' -}}" />
-  {%- unless page.canonical == false -%}<link rel="canonical" href="{{- page.url | absolute_url -}}" />{%- endunless -%}
-  
-  <!-- Title, description, author -->
-  {%- capture _page_title -%}
-    {%- if page.title -%}{{- page.title | append: ' | ' -}}{%- endif -%}
-    {{- site.title | default: "Untitled Website" -}}
-    {%- if site.subtitle -%}{{- site.subtitle | prepend: ' - ' -}}{%- endif -%}
-  {%- endcapture -%}
-  {%- assign _page_title = _page_title | escape -%}
-  {%- assign _page_description = page.description | default: site.description | default: _page_title | escape -%}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{{- _page_title -}}</title>
-  <meta name="description" content="{{- _page_description -}}" />
-  <meta name="author" content="{{- site.author -}}" />
-  
-  <!-- Open Graph -->
-  <meta property="og:title" content="{{- _page_title -}}" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="{{- site.avatar | absolute_url -}}" />
-  <meta property="og:url" content="{{- page.url | absolute_url -}}" />
-  <meta property="og:site_name" content="{{- site.title | escape -}}" />
-  <meta property="og:description" content="{{- _page_description -}}" />
-  
-  <!-- Styles -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!--[if lte IE 8]><script src="{{- 'assets/js/ie/html5shiv.js' | relative_url -}}" defer></script><![endif]-->
-  <link rel="stylesheet" href="{{- 'assets/css/main.css' | relative_url -}}" />
-  <!--[if lte IE 8]><link rel="stylesheet" href="{{- 'assets/css/ie8.css' | relative_url -}}" /><![endif]-->
-  <!--[if lte IE 9]><link rel="stylesheet" href="{{- 'assets/css/ie9.css' | relative_url -}}" /><![endif]-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+{% seo %}
 
-  <!-- Scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" defer></script>
-  <script src="{{- 'assets/js/jquery.scrolly.min.js' | relative_url -}}" defer></script>
-  <script src="{{- 'assets/js/jquery.scrollzer.min.js' | relative_url -}}" defer></script>
-  <script src="{{- 'assets/js/skel.min.js' | relative_url -}}" defer></script>
-  <script src="{{- 'assets/js/util.js' | relative_url -}}" defer></script>
-  <!--[if lte IE 8]><script src="{{- 'assets/js/ie/respond.min.js' | relative_url -}}" defer></script><![endif]-->
-  <script src="{{- 'assets/js/main.js' | relative_url -}}" defer></script>
+{% feed_meta %}
 
-</head>
-=======
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+{% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+{% endif %}
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  {% if site.name %}
-  <meta name="author" content="{{ site.name }}">
-  <meta name="copyright" content="&copy; {{ site.name }} {{ site.time | date: '%Y' }}">
-  {% endif %}
+{% if page.math %}
+  {% include mathjax.html %}
+{% endif %}
 
-  <!-- External libraries -->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/{{ site.highlightjs_theme }}.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans|Roboto|Roboto%20Slab|Inconsolata|Dancing%20Script|Noto%20Sans%20SC|Noto%20Sans%20TC|Noto%20Serif%20SC|Noto%20Serif%20TC|Ma%20Shan%20Zheng">
 
-  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
-  <link rel="shortcut icon" href="{{ "/assets/icons/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
-  <link rel="icon" href="{{ "/assets/icons/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="57x57" href="{{ "/assets/icons/apple-icon-57x57.png" | prepend: site.baseurl }}">
-  <link rel="apple-touch-icon" sizes="60x60" href="{{ "/assets/icons/apple-icon-60x60.png" | prepend: site.baseurl }}">
-  <link rel="apple-touch-icon" sizes="72x72" href="{{ "/assets/icons/apple-icon-72x72.png" | prepend: site.baseurl }}">
-  <link rel="apple-touch-icon" sizes="76x76" href="{{ "/assets/icons/apple-icon-76x76.png" | prepend: site.baseurl }}">
-  <link rel="apple-touch-icon" sizes="114x114" href="{{ "/assets/icons/apple-icon-114x114.png" | prepend: site.baseurl }}">
-  <link rel="apple-touch-icon" sizes="120x120" href="{{ "/assets/icons/apple-icon-120x120.png" | prepend: site.baseurl }}">
-  <link rel="apple-touch-icon" sizes="144x144" href="{{ "/assets/icons/apple-icon-144x144.png" | prepend: site.baseurl }}">
-  <link rel="apple-touch-icon" sizes="152x152" href="{{ "/assets/icons/apple-icon-152x152.png" | prepend: site.baseurl }}">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/icons/apple-icon-180x180.png" | prepend: site.baseurl }}">
-  <link rel="icon" type="image/png" sizes="192x192"  href="{{ "/assets/icons/android-icon-192x192.png" | prepend: site.baseurl }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/icons/favicon-32x32.png" | prepend: site.baseurl }}">
-  <link rel="icon" type="image/png" sizes="96x96" href="{{ "/assets/icons/favicon-96x96.png" | prepend: site.baseurl }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/icons/favicon-16x16.png" | prepend: site.baseurl }}">
-  <link rel="manifest" href="{{ "/assets/icons/manifest.json" | prepend: site.baseurl }}">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="{{ "/assets/icons/ms-icon-144x144.png" | prepend: site.baseurl }}">
-  <meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/skin.css' | relative_url }}">
 
-  {% if site.protocols.fb_image %}
-  <!-- Facebook OGP cards -->
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:url" content="{% if page.url %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}">
-  <meta property="og:site_name" content="{{ site.title }}" />
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="{% if page.cover %}{{ page.cover | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.protocols.fb_image | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
-  <meta property="og:image:type" content="{{ site.protocols.fb_image_type }}" />
-  <meta property="og:image:width" content="{{ site.protocols.fb_image_width }}" />
-  <meta property="og:image:height" content="{{ site.protocols.fb_image_height }}" />
-  {% endif %}
+<!-- Begin selecting skin -->
+{% unless site.skin %}
+  <script>
+    const hour = (new Date()).getHours();
+    let filename = "";
+    if (hour >= 5 && hour < 7) {
+      filename = "{{ '/assets/css/skin-sunrise.css' | relative_url }}";
+    } else if (hour >= 7 && hour < 17) {
+      filename = "{{ '/assets/css/skin-daylight.css' | relative_url }}";
+    } else if (hour >= 17 && hour < 19) {
+      filename = "{{ '/assets/css/skin-sunset.css' | relative_url }}";
+    } else {
+      filename = "{{ '/assets/css/skin-midnight.css' | relative_url }}";
+    }
+    const elem = document.createElement("link");
+    elem.setAttribute("rel", "stylesheet");
+    elem.setAttribute("type", "text/css");
+    elem.setAttribute("href", filename);
+    document.getElementsByTagName("head")[0].appendChild(elem);
+  </script>
+{% endunless %}
+<!-- End selecting skin -->
 
-  {% if site.protocols.twitter_image %}
-  <!-- Twitter: card tags -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{% if page.cover %}{{ page.cover | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.protocols.twitter_image | prepend: site.baseurl | prepend: site.url }}{% endif %}">
-  <meta name="twitter:url" content="{% if page.url %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}">
-  {% endif %}
+<script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
 
-  {% if protocols.os_repo and protocols.os_rcs_type and protocols.os_src %}
-  <!-- Open Source Protocol -->
-  <link rel="profile" href="http://osprotocol.com" />
-  <meta property="os:repo" content="{{ protocols.os_repo }}" />
-  <meta property="os:rcs_type" content="{{ protocols.os_rcs_type }}" />
-  <meta property="os:src" content="{{ protocols.os_src }}" />
-  {% endif %}
-
-  <!-- Site styles -->
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-	
-	<!-- Tooltips -->
-	<script type="text/javascript">
-		window.tooltips = []
-	</script>
-</head>
->>>>>>> 5fe7677ed013a8133ffd0896724772fa8a1178b4
+{% include custom-head.html %}
