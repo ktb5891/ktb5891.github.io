@@ -85,7 +85,7 @@ from wordcloud import WordCloud, STOPWORDS
 
 워드클라우드의 결과가 믿을만한 결과인지 확인하고 어떠한 단어들이 연관되어 있는지 확인하기 위한 방법으로 시계열 분석을 선택하였다.
 
-![10keyword_timeline](https://github.com/ktb5891/ktb5891.github.io/blob/main/img/nc_problem/10keyword_timeline.png?raw=true){: width="800" height="400"}
+![10keyword_timeline](https://raw.githubusercontent.com/ktb5891/ktb5891.github.io/main/img/nc_problem/10keyword_timeline.png){: width="800" height="400"}
 
 > 위의 그래프에서 급격한 변화가 보이는 이벤트, 친구, 초대, 영기, 버그의 시계열 그래프를 따로 그려 확인해보기로 하였다.
 
