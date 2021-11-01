@@ -7,6 +7,8 @@ tags: [NCSoft, python, jupyter notebook, machine learning]
 author:
   - Kwak Tae Beom
 ---
+# Blade & Soul 2 Analysis Project
+
 ## 서론
 
 ### 게임선택
