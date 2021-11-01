@@ -559,7 +559,8 @@ ul.post-categories {
     }
 
     p, blockquote, pre, figure, iframe, %vertical-rhythm {
-      margin-bottom: $spacing-unit / 3;
+      // margin-bottom: $spacing-unit / 3;
+      margin-bottom: $spacing-unit;
     }
   }
 }
