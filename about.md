@@ -24,7 +24,7 @@ author:
 ### Project
 - Seoul Final Bus&Subway Route Explore Project
 
-## 2020.08 ~ 정보처리기사 필기 합격 (실기 진행중)
+## 2020.08 ~ 정보처리기사 필기 합격 (실기 진행 중)
 
 ## 2020.09 ADsP(데이터 분석 준 전문가) 취득
 
@@ -53,3 +53,5 @@ author:
 1. Seoul Corona Trends Analysis
 2. Hydrogen Car Charging Station Location Recommend
 3. Seoul Customer Sphere Analysis
+
+## 2021.09 ~ 빅데이터 분석 기사 필기 합격 (실기 진행 중)
