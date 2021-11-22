@@ -216,10 +216,10 @@ Python'을 사용하여 분석을 용이하게 하기 위해  ‘Pandas', 'Numpy
 
 셋째, ‘당일 충전 요금 및 대기 시간 정보 제공’ 기능은 [그림 Ⅴ-3] <지도상의 메뉴 바>의 하단에 표현된 당일 충전소의 충전 요금과 충전 시 예상 대기 시간을 표시해준다. 수소충전소는 충전 요금에 변동이 생기며, 충전소에서 대기하고 있는 차량 대수에 따라서도 충전 시간이 변동된다. 따라서, 사용자가 효율적으로 충전을 할 수 있도록 웹에서 당일 수소 충전 가격과 대기 시간을 안내한다.
 
-![image19](https://github.com/ktb5891/ktb5891.github.io/blob/main/img/WITH/image19.png?raw=true){: width="800"}
+![image19](https://github.com/ktb5891/ktb5891.github.io/blob/main/img/WITH/image19.png?raw=true){: width="400"}
 *[그림 Ⅴ-3] 지도상의 내비게이션 바 (출발지 및 도착지 주소, 거리 및 소요시간)*
 
-![image20](https://github.com/ktb5891/ktb5891.github.io/blob/main/img/WITH/image20.png?raw=true){: width="800"}
+![image20](https://github.com/ktb5891/ktb5891.github.io/blob/main/img/WITH/image20.png?raw=true){: width="400"}
 *[그림 Ⅴ-4] 지도상의 메뉴 바(충전소 카테고리 버튼, 당일 충전소 요금 및 충전 시간)*
 
 ### 웹 사이트 구현방법 (Python + HTML)
