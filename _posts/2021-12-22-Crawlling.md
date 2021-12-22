@@ -123,6 +123,7 @@ while True:
 ### 세부 정보를 추출해 각 리스트에 저장
 
 ```python
+
 for tmp in url_allset:
     url = tmp
 
