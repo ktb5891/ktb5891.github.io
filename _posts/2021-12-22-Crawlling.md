@@ -18,6 +18,7 @@ author:
 
 > 이미 작성된 코드를 아무리 주석이 다 달려있다고는 하지만 한 줄 한 줄 코드를 해석하는데 조금 시간이 걸렸다.
 
+### 필요 라이브러리
 ```python
 from collections import OrderedDict
 import requests # pip install requests
@@ -32,6 +33,7 @@ import time
 
 진행방식은 requests를 이용해 각각 공고 링크를 저장하고 링크마다 selenium - webdriver를 이용해 세부 내용을 크롤링해 작업하는 방향으로 작성되었다.
 
+### Chrome 옵션 설정
 ```python
 # 옵션 설정
 options = webdriver.ChromeOptions()
@@ -56,6 +58,8 @@ options.add_experimental_option("excludeSwitches", ["enable-logging"])
 왜 저렇게 옵션을 설정해야 빠른지 아직도 이해가 가지 않지만 구글링을 통해 천천히 알아봐야겠다.
 아직 프로젝트 들어가려면 2주가 넘게 남았다...ㅎ
 
+### 전체 공고 링크 추출
+
 ```python
 while True:
 # for page in range(1,3):    # while문 안될 시, for문으로 쪼개기 필요하다 판단
@@ -77,6 +81,8 @@ while True:
     page+=1
 ```
 `전체 공고 링크 추출`
+
+### 당일 공고 링크 추출
 
 ```python
 while True:
@@ -113,6 +119,8 @@ while True:
 11시간 전 공고는 어제 등록된 공고가 되므로
 가장 늦은 시간인 밤 11시 기준 1일 전 등록까지 추출하여 나중에 필터하는 방향으로 작성하였다.
 > 현재 시각이랑 24시 빼고 계산하는게 귀찮.... 속도는 신경쓰지 말래써...
+
+### 세부 정보를 추출해 각 리스트에 저장
 
 ```python
 for tmp in url_allset:
@@ -249,6 +257,8 @@ for tmp in url_allset:
 
 그래도 직접 코드를 짰을 때, Xpath를 이용해서 받아왔는데 속도가 너무 느려 도저히 안되겠다고 판단되어 해당 코드를 수정하는 방향으로 갔다.
 
+### Xpath로 추출하는 방식(실패..)
+
 ```python
 def etc_text(etc_,path):
     try:
@@ -267,6 +277,8 @@ def etc_text(etc_,path):
 
 위의 해당 코드로 받아오긴 했으나 Sa***in의 경우 공란을 두지 않고 그대로 한칸씩 당기는 설계로 하여 원하는 칸에 잘 들어가지 않았고,
 속도 측면에서도 굉장히 느렸다.
+
+### 필터 및 엑셀로 저장
 
 ```python
 raw_data = {'공고링크': link_,
