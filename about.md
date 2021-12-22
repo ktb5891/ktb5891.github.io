@@ -48,6 +48,7 @@ author:
 - CentosOS
 - Linux
 - MongoDB
+- Power BI
 
 ### Project
 1. Seoul Corona Trends Analysis
@@ -55,3 +56,5 @@ author:
 3. Seoul Downtown Area Catering Commercial Sphere Analysis
 
 ## 2021.09 ~ 빅데이터 분석 기사 필기 합격 (실기 진행 중)
+
+## 2021.11 ~ Maven Cloud Service 입사
