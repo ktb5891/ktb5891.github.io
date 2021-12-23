@@ -2,7 +2,7 @@
 layout: post
 toc: true
 title: "오랜만에 잡아본 Python과 Crawlling"
-categories: Project
+categories: project
 tags: [Maven Cloud Service, Python, Visual Studio]
 author:
   - Kwak Tae Beom
