@@ -89,7 +89,7 @@ author:
 
 #### (답안 작성 예) ① + ② + ③
 
-![8.png](https://github.com/ktb5891/ktb5891.github.io/blob/main/img/BDAC/8.png?raw=true){: width="800"}
+![11.png](https://github.com/ktb5891/ktb5891.github.io/blob/main/img/BDAC/11.png?raw=true){: width="800"}
 
 > A. `①/(① + ③)`
 
@@ -113,9 +113,9 @@ author:
 
 > 이것으로 평균제곱오차 또는 교차엔트로피 오차를 활용한다.
 
-> A. 손실함수(Loss Function)
+> A. `손실함수(Loss Function)`
 
-> > 손실함수는 인공신경망의 성능을 나타내는 지표로 활용됩니다.
+> > `손실함수`는 `인공신경망의 성능`을 나타내는 지표로 활용됩니다.
 
 > > 인공신경망 학습에서는 손실함수의 값을 가능한 작게 하는 최적의 매개변수를 찾습니다.
 
