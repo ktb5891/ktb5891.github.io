@@ -167,7 +167,7 @@ SELECT 이름 FROM 고객
 
 - (  2  ) : 짧은 시간에 사용자가 몰릴 때 시스템의 반을을 측정하는 테스트 기법
 
-<보기>
+보기
 
 * Recovery Testing, Security Testing, Generalization, Structure Testing, Regression Testing, Stress Testing, Spike Testing
 
