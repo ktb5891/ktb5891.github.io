@@ -142,9 +142,8 @@ author:
 
 - 또한 전송계층(4계층)과 응용계층(7계층) 사이에서 클라이언트와 서버 간의 웹 데이터 암호화(기밀성), 상호 인증 및 전송 시 데이터 무결성을 보장, 433포트를 사용하는 보안 프로토콜인 (  2  )을/를 사용해서 중요 인터페이스 데이터의 안전한 전송을 수행해야 한다.
 
-> 1. `Plug-in 방식`
-
-> 2. `SSL/TLS = SSL = TLS`
+> 1. `Plug-in 방식`   
+2. `SSL/TLS = SSL = TLS`
 
 > > 데이터베이스 암호화 방식 (두음 : 애플티하)
 
@@ -297,9 +296,8 @@ GRANT INSERT ON 직원 TO 고길동
 
 * Recovery Testing, Security Testing, Generalization, Structure Testing, Regression Testing, Stress Testing, Spike Testing
 
-> 1. `Regression Testing`
-
-> 2. `Spike Testing`
+> 1. `Regression Testing`   
+2. `Spike Testing`
 
 ***
 
@@ -326,9 +324,8 @@ GRANT INSERT ON 직원 TO 고길동
 
 - (  2  ) 은/는 웹 사이트를 크롤링하여 구조화된 데이터를 수집하는 파이썬(Python) 기반의 애플리케이션 프레임워크이다.
 
-> 1. `Docker 도커`
-
-> 2. `Scrapy 스크래파이`
+> 1. `Docker 도커`   
+2. `Scrapy 스크래파이`
 
 ***
 
@@ -347,6 +344,5 @@ GRANT INSERT ON 직원 TO 고길동
 
 2. 콘텐츠를 메타데이터와 함께 배포 가능한 단위로 묶는 도구
 
-> 1. `클리어링 하우스(Clearing House)`
-
-> 2. `패키저(Packager)`
+> 1. `클리어링 하우스(Clearing House)`   
+2. `패키저(Packager)`
