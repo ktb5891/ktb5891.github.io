@@ -193,7 +193,11 @@ void main(){
 #include <stdio.h>
 void main(){
     int i, j;
-    int a[3][2] = {{1,2},{3,4},{5,6}};
+    int a[3][2] = {
+      {1,2},
+      {3,4},
+      {5,6}
+    };
     int sum = 0;
 
     for(i=0; i<3; i++){
