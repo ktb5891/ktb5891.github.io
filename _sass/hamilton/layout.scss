@@ -332,7 +332,8 @@ ul.social-icons {
 
   @include media-query($on-medium) {
     padding-left: $spacing-unit / 2;
-    padding-right: $spacing-unit / 2;
+    padding-right: $spacing-unit;
+    // padding-right: $spacing-unit / 2;
   }
 
   @include media-query($on-small) {
