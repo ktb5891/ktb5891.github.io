@@ -1,11 +1,9 @@
 ---
-layout: post
-toc: true
 title: "Power BI를 시작하게 되었습니다"
-categories: etc
+author: Kwak Tae Beom
+date: 2021-11-25 16:01:00 +0900
+categories: [etc]
 tags: [Maven Cloud Service, Power BI]
-author:
-  - Kwak Tae Beom
 ---
 
 # Python 마스터하러 왔는데 Power BI...?

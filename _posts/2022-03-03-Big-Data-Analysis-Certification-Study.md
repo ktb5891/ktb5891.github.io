@@ -1,11 +1,9 @@
 ---
-layout: post
-toc: true
 title: "빅데이터 분석 기사 실기 준비(단답형)"
-categories: study
+author: Kwak Tae Beom
+date: 2022-03-03 15:19:00 +0900
+categories: [study]
 tags: [Sujebi,Daily Quiz,빅분기]
-author:
-  - Kwak Tae Beom
 ---
 
 # 빅데이터 분석 기사 단답형 예시

@@ -1,11 +1,9 @@
 ---
-layout: post
-toc: true
 title: "오랜만에 잡아본 Python과 Crawlling"
-categories: project
+author: Kwak Tae Beom
+date: 2021-12-22 14:31:00 +0900
+categories: [project]
 tags: [Maven Cloud Service, Python, Visual Studio]
-author:
-  - Kwak Tae Beom
 ---
 
 # ---정보통신에서의 Web Crawlling 요청.

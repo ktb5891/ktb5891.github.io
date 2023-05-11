@@ -1,11 +1,9 @@
 ---
-layout: post
-toc: true
 title: "Start Github Blog"
-categories: etc
+author: Kwak Tae Beom
+date: 2021-11-01 15:12:00 +0900
+categories: [etc]
 tags: [python, machine learning, project]
-author:
-  - Kwak Tae Beom
 ---
 안녕하세요.
 

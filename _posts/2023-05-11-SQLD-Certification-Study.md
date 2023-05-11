@@ -1,11 +1,9 @@
 ---
-layout: post
-toc: true
 title: "SQLD(SQL개발자) 필기 준비"
-categories: study
+author: Kwak Tae Beom
+date: 2022-05-11 17:12:00 +0900
+categories: [study]
 tags: [SQL Server Management Service,Oracle,SQLD]
-author:
-  - Kwak Tae Beom
 ---
 
 # SQL 개발자 핵심 150제 정리

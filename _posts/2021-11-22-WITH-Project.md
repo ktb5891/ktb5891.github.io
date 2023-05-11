@@ -1,11 +1,9 @@
 ---
-layout: post
-toc: true
 title: "수소차 충전소 입지 선정 및 안내 웹 서비스"
-categories: project
+author: Kwak Tae Beom
+date: 2021-11-22 13:01:00 +0900
+categories: [project]
 tags: [Global IT 인재교육원, python, jupyter notebook, machine learning, Sufil, Hackerton]
-author:
-  - Kwak Tae Beom
 ---
 
 # Where Is The Hydrogen Station?

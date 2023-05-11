@@ -1,4 +1,11 @@
 ---
+title: "서울 도심권 요식업 상권분석"
+author: Kwak Tae Beom
+date: 2021-11-03 11:21:00 +0900
+categories: [project]
+tags: [Global IT 인재교육원, python, jupyter notebook, machine learning, Sufil]
+---
+---
 layout: post
 toc: true
 title: "서울 도심권 요식업 상권분석"

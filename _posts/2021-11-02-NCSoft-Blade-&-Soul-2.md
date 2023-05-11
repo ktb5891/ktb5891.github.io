@@ -1,12 +1,11 @@
 ---
-layout: post
-toc: true
 title: "NCSoft Blade & Soul2 Analysis"
-categories: project
+author: Kwak Tae Beom
+date: 2021-11-02 11:30:00 +0900
+categories: [project]
 tags: [NCSoft, python, jupyter notebook, machine learning]
-author:
-  - Kwak Tae Beom
 ---
+
 # Blade & Soul 2 Analysis Project
 
 ## 서론

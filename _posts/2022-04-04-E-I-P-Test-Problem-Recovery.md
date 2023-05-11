@@ -1,11 +1,9 @@
 ---
-layout: post
-toc: true
 title: "정보 처리 기사 실기 기출 복원"
-categories: study
+author: Kwak Tae Beom
+date: 2022-04-04 13:12:00 +0900
+categories: [study]
 tags: [정처기]
-author:
-  - Kwak Tae Beom
 ---
 
 # 20년 3회 정보처리기사 실기 복원 문제
