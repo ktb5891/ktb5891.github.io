@@ -1,9 +1,9 @@
-<!-- ---
+---
 title: "Where Is The Hydrogen Station?"
 author: Kwak Tae Beom
 date: 2021-11-22 13:01:00 +0900
 categories: [project]
-tags: [Global IT Development, python, jupyter notebook, machine learning, Sufil, Hackerton]
+tags: [python, jupyter notebook, machine learning, Sufil, Hackerton]
 ---
 
 # Where Is The Hydrogen Station?
@@ -286,4 +286,4 @@ NAVER 지도 API V3는 JavaScript 형태의 NAVER 지도 플랫폼으로, 웹 �
 - 김경현, 구윤모. "교통량 데이터를 활용한 전기차 충전소 위치 최적화 방안 연구." 한국혁신학회지 15.4 (2020): 61-91.
 - 김수환, 류준형. (2020). 수소 충전소 최적 위치 선정을 위한 기계 학습 기반 방법론. Korean Chem.Eng.Res.(화학공학), 58(4), 573-580.
 - 장홍석. "빅데이터 분석을 통한 전기차 충전소 최적입지 선정 방안." 대한산업공학회 춘계공동학술대회 논문집 . (2019): 1301-1329.
-- 한진석. "서울시 전기차 충전인프라 설치 방안 연구." 서울도시연구 19.3 (2018): 131-147. -->
+- 한진석. "서울시 전기차 충전인프라 설치 방안 연구." 서울도시연구 19.3 (2018): 131-147.
