@@ -3,7 +3,7 @@ title: "Information Processing Engineer Certification Quiz"
 author: Kwak Tae Beom
 date: 2022-04-04 13:12:00 +0900
 categories: [study]
-tags: [정처기]
+tags: [Information Processing Engineer]
 ---
 
 # 20년 3회 정보처리기사 실기 복원 문제

@@ -3,7 +3,7 @@ title: "Big Data Analysis Certification Study"
 author: Kwak Tae Beom
 date: 2022-03-03 15:19:00 +0900
 categories: [study]
-tags: [Sujebi,Daily Quiz,빅분기]
+tags: [Sujebi,Daily Quiz,Big Data Analysis]
 ---
 
 # 빅데이터 분석 기사 단답형 예시

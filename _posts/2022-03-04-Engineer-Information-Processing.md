@@ -3,7 +3,7 @@ title: "Information Processing Engineer Certification Study"
 author: Kwak Tae Beom
 date: 2022-03-04 11:12:00 +0900
 categories: [study]
-tags: [Sujebi,Daily Quiz,정처기]
+tags: [Sujebi,Daily Quiz,Information Processing Engineer]
 ---
 
 # 정보 처리 기사 실기 Daily 문제
