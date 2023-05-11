@@ -1,5 +1,5 @@
 ---
-title: "SQLD(SQL개발자) 필기 준비"
+title: "SQL Development Study"
 author: Kwak Tae Beom
 date: 2022-05-11 17:12:00 +0900
 categories: [study]

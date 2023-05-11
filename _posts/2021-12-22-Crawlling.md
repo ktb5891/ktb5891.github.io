@@ -1,5 +1,5 @@
 ---
-title: "오랜만에 잡아본 Python과 Crawlling"
+title: "Job Opening Web Crawlling "
 author: Kwak Tae Beom
 date: 2021-12-22 14:31:00 +0900
 categories: [project]

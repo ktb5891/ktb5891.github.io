@@ -1,5 +1,5 @@
 ---
-title: "삼성중공업 전사 통합 모니터링 Power BI 프로젝트 (SYARD)"
+title: "SYARD Project in Power BI"
 author: Kwak Tae Beom
 date: 2022-03-30 13:12:00 +0900
 categories: [project]

@@ -1,5 +1,5 @@
 ---
-title: "Power BI를 시작하게 되었습니다"
+title: "Start Power BI"
 author: Kwak Tae Beom
 date: 2021-11-25 16:01:00 +0900
 categories: [etc]

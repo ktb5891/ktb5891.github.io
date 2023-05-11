@@ -1,5 +1,5 @@
 ---
-title: "정보 처리 기사 실기 기출 복원"
+title: "Information Processing Engineer Certification Quiz"
 author: Kwak Tae Beom
 date: 2022-04-04 13:12:00 +0900
 categories: [study]
