@@ -1,7 +1,7 @@
 ---
 title: "SYARD Project in Power BI"
 author: Kwak Tae Beom
-date: 2022-03-30 13:12:00 +0900
+date: 2023-03-30 13:12:00 +0900
 categories: [project]
 tags: [Power BI,Azure Data Factory,SQL Server Management Service,Oracle]
 ---

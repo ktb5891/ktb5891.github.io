@@ -1,7 +1,7 @@
 ---
 title: "SQL Development Study"
 author: Kwak Tae Beom
-date: 2022-05-11 17:12:00 +0900
+date: 2023-05-11 17:12:00 +0900
 categories: [study]
 tags: [SQL Server Management Service,Oracle,SQLD]
 ---
