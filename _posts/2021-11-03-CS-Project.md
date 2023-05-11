@@ -1,10 +1,9 @@
-
 ---
 title: "Seoul Downtown Area Catering Commercial Sphere Analysis"
 author: Kwak Tae Beom
 date: 2021-11-03 11:21:00 +0900
 categories: [project]
-tags: [python, jupyter notebook, machine learning, Sufil]
+tags: [python, jupyter notebook, machine learning]
 ---
 
 # Seoul Downtown Area Catering Commercial Sphere Analysis

@@ -3,7 +3,7 @@ title: "Where Is The Hydrogen Station?"
 author: Kwak Tae Beom
 date: 2021-11-22 13:01:00 +0900
 categories: [project]
-tags: [python, jupyter notebook, machine learning, Sufil, Hackerton]
+tags: [python, jupyter notebook, machine learning, Hackerton]
 ---
 
 # Where Is The Hydrogen Station?
