@@ -328,7 +328,7 @@ ul.social-icons {
   // scrollbar-width: none;     // Firefox
 
   padding-left: $spacing-unit;
-  padding-right: $spacing-unit;
+  padding-right: 0;
 
   @include media-query($on-medium) {
     padding-left: $spacing-unit / 2;
