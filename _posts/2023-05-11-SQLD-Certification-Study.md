@@ -1,9 +1,11 @@
 ---
-title: "SQL Development Study"
-author: Kwak Tae Beom
-date: 2023-05-11 17:12:00 +0900
-categories: [study]
+layout: post
+toc: true
+title: "SQLD(SQL개발자) 필기 준비"
+categories: study
 tags: [SQL Server Management Service,Oracle,SQLD]
+author:
+  - Kwak Tae Beom
 ---
 
 # SQL 개발자 핵심 150제 정리
@@ -33,11 +35,9 @@ tags: [SQL Server Management Service,Oracle,SQLD]
 1. 기본/핵심 엔터티(Basic Entity)
 - 키 엔터티라고 함
 - 다른 엔터티로 부터 영향을 안받음. 즉, 독립적으로 생성되는 엔터티
-
 ex) 고객, 상품, 부서 등
 
 2. 중심 엔터티(Main Entity)
-- 기본 엔터티와 행위 엔터티 간의 
 
 3. 행위 엔터티(Active Entity)
 

@@ -1,9 +1,11 @@
-<!-- ---
-title: "Seoul Downtown Area Catering Commercial Sphere Analysis"
-author: Kwak Tae Beom
-date: 2021-11-03 11:21:00 +0900
-categories: [project]
-tags: [python, jupyter notebook, machine learning]
+---
+layout: post
+toc: true
+title: "서울 도심권 요식업 상권분석"
+categories: project
+tags: [Global IT 인재교육원, python, jupyter notebook, machine learning, Sufil]
+author:
+  - Kwak Tae Beom
 ---
 
 # Seoul Downtown Area Catering Commercial Sphere Analysis
@@ -264,4 +266,4 @@ val_scaled = StandardScaler().fit_transform(val)
 
 - 김종원, 박윤보, 류주미, 신주범, 박대기. “빅데이터 기반의 상권분석 시스템 구현에 관한 연구”. 한국정보처리학회 2017년도 추계학술발표대회. (2017): 652 – 654.
 
-- 오흥록, 배범석, 문혜정. "빅데이터 분석을 통한 서울시 골목상권 분석." 한국경영학회 통합학술발표논문집 . (2017): 344-372. -->
+- 오흥록, 배범석, 문혜정. "빅데이터 분석을 통한 서울시 골목상권 분석." 한국경영학회 통합학술발표논문집 . (2017): 344-372.
