@@ -32,7 +32,8 @@ author:
 {: .prompt-warning }
 
 * **`엔터티`**의 개념 : 업무에서 관리해야하는 데이터의 집합을 의미, 저장되고 관리되어야 하는 데이터
-{: .prompt-warning }(개념, 사건, 장소 등의 명사)
+{: .prompt-warning }
+(개념, 사건, 장소 등의 명사)
 
 1. 기본/핵심 엔터티(Basic Entity)
 - 키 엔터티라고 함
@@ -67,3 +68,6 @@ ex) 고객, 상품, 부서 등
   - ex) 나이(생년월일 속성에서 유도됨), 근무기간(입사일 속성에서 유도됨) 등
 
 #### 5. 
+
+> An example showing the `tip` type prompt.
+{: .prompt-tip }
