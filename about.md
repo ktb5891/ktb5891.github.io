@@ -55,8 +55,9 @@ author:
 2. Hydrogen Car Charging Station Location Recommend
 3. Seoul Downtown Area Catering Commercial Sphere Analysis
 
-## 2021.09 ~ 빅데이터 분석 기사 필기 합격 (실기 진행 중)
 
 ## 2021.11 ~ Maven Cloud Service 입사
 
-## 2022.07 빅데이터 분석 기사 실기 합격 (최종 합격)
+## 2022.07 빅데이터 분석 기사 취득
+
+## 2023.08 SQLD(SQL Developer) 취득
